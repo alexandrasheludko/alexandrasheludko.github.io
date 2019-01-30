@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="description" content="main-page - description">
+	<meta http-equiv="X-UA-Compatible" content="IE = edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="img/logo-og.png">
+	<link rel="icon" href="img/favicon.png">	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,700" rel="stylesheet">
+	<!-- <link rel='stylesheet prefetch' href='libs/photoswipe/dist/photoswipe.css'>
+	<link rel='stylesheet prefetch' href='libs/photoswipe/dist/default-skin/default-skin.css'>
+		<link rel="stylesheet" href="libs/slick-carousel/slick/slick.css"/>
+	<link rel="stylesheet" href="libs/slick-carousel/slick/slick-theme.css"/> -->
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<header class="header">
+		<span class="logo"><img class="logo__img" src="img/logo.png"></span>
+		<a href="#" id="touch-menu">Menu</a>
+		<nav class="header__menu menu">
+			<ul class="menu__left-item">
+				<li class="menu__item"><a class="menu__link" href="#about">About us</a></li>
+				<li class="menu__item"><a class="menu__link" href="#reservation">Reservation</a></li>
+				<li class="menu__item"><a class="menu__link" href="#gallery">Gallery</a></li>
+			</ul>
+			<ul class="menu__right-item">
+				<li class="menu__item"><a class="menu__link" href="#blog">Blog</a></li>
+				<li class="menu__item"><a class="menu__link" href="#elements">Elements</a></li>
+				<li class="menu__item"><a accesskey="s" class="menu__link" href="#shop">Shop</a></li>
+			</ul>
+		</nav>
+	</header>
+	<a name="reservation"></a>
+	<div class="slider">
+		<div class="slider__left">
+			<div class="form">
+				<div class="form__heading">Trial Class</div>
+				<div class="submit">
+					<input class="submit__input input" type="text" id="first-name" placeholder="Enter your name"> 
+				</div>
+				<div class="submit">
+					<input type="text" class="submit__input input js-phone" name="ph" placeholder="Enter your phone" data-rule-required="true" data-rule-minlength="10" data-msg="Введите номер телефона">
+				</div>
+				<div class="submit">
+					<select class="submit__input input" name="class">
+						<option value="choose">Choose your class</option>
+						<option value="health">Yoga For Health</option>
+						<option value="children">Yoga For Children</option>
+						<option value="weight">Yoga For Lose Weight</option>
+						<option value="elderly">Yoga For Elderly</option>
+					</select>
+				</div>
+				<a href="#" class="form__btn">Try it</a>
+			</div>
+		</div>
+		<div class="slider__content">
+			<div class="slider__heading">Just Balance your Mind & Body </div>
+			<div class="slider__title">Create the healthy living for yourself</div>
+		</div>
+	</div>
+	<main class="main">
+		<a name="blog"></a>
+		<div class="feature">
+			<div class="wrapper">
+				<div class="feature__heading">
+					<div class="heading">
+						Yoga feature program
+					</div>
+					<div class="title">
+						Our Classes
+					</div>
+				</div>
+				<div class="feature__content">
+					<div class="tab" href="#">
+						<img class="tab__img" src="img/program/01.jpg" alt="">
+						<div class="tab__content">
+							<div class="tab__heading">Yoga For Health</div>
+							<div class="tab__text text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</div>
+							<div class="tab__smallText">Ashtanga - Hatha</div>
+						</div>
+					</div>
+					<div class="tab" href="#">
+						<img class="tab__img" src="img/program/03.jpg" alt="">
+						<div class="tab__content">
+							<div class="tab__heading">Yoga For Lose Weight</div>
+							<div class="tab__text text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</div>
+							<div class="tab__smallText">Ashtanga - Hatha</div>
+						</div>
+					</div>
+					<div class="tab" href="#">
+						<img class="tab__img" src="img/program/02.jpg" alt="">
+						<div class="tab__content">
+							<div class="tab__heading">Yoga For Children</div>
+							<div class="tab__text text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</div>
+							<div class="tab__smallText">Ashtanga - Hatha</div>
+						</div>
+					</div>
+					<div class="tab" href="#">
+						<img class="tab__img" src="img/program/04.jpg" alt="">
+						<div class="tab__content">
+							<div class="tab__heading">Yoga For Elderly</div>
+							<div class="tab__text text">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat consectetur adipisicing elit, sed do eiusmod tempor incididunt.</div>
+							<div class="tab__smallText">Ashtanga - Hatha</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a name="gallery"></a>
+
+
+
+		<div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/01.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/01.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/02.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/02.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/03.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/03.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/04.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/04.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+
+			</figure>
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/05.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/05.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/06.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/06.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/07.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/07.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+
+			</figure>
+
+			<figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+				<a class="my-gallery__link" href="img/gallery/08.jpg" itemprop="contentUrl" data-size="1268x930">
+					<img src="img/gallery/08.jpg" itemprop="thumbnail" alt="Image description" />
+					<!-- <div class="my-gallery__zoom"><i class="fas fa-search"></i></div> -->
+				</a>
+				<!-- <figcaption itemprop="caption description">Image caption  1</figcaption> -->
+
+
+			</figure>
+
+		</div>
+
+
+
+
+		<!-- Root element of PhotoSwipe. Must have class pswp. -->
+		<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+    	It's a separate element, as animating opacity is faster than rgba(). -->
+    	<div class="pswp__bg"></div>
+
+    	<!-- Slides wrapper with overflow:hidden. -->
+    	<div class="pswp__scroll-wrap">
+
+    		<!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+    		<!-- don't modify these 3 pswp__item elements, data is added later on. -->
+    		<div class="pswp__container">
+    			<div class="pswp__item"></div>
+    			<div class="pswp__item"></div>
+    			<div class="pswp__item"></div>
+    		</div>
+
+    		<!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+    		<div class="pswp__ui pswp__ui--hidden">
+
+    			<div class="pswp__top-bar">
+
+    				<!--  Controls are self-explanatory. Order can be changed. -->
+
+    				<div class="pswp__counter"></div>
+
+    				<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+    				<button class="pswp__button pswp__button--share" title="Share"></button>
+
+    				<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+    				<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+    				<!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR -->
+    				<!-- element will get class pswp__preloader--active when preloader is running -->
+    				<div class="pswp__preloader">
+    					<div class="pswp__preloader__icn">
+    						<div class="pswp__preloader__cut">
+    							<div class="pswp__preloader__donut"></div>
+    						</div>
+    					</div>
+    				</div>
+    			</div>
+
+    			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+    				<div class="pswp__share-tooltip"></div> 
+    			</div>
+
+    			<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    			</button>
+
+    			<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    			</button>
+
+    			<div class="pswp__caption">
+    				<div class="pswp__caption__center"></div>
+    			</div>
+
+    		</div>
+
+    	</div>
+
+    </div>
+
+
+		<a name="about"></a>
+		<div class="about">
+			<div class="wrapper">
+				<div class="about-wrap">
+					<div class="about__content">
+						<div class="heading">
+							About us
+						</div>
+						<div class="text">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor it in lorei voluptate velit esse cillum dolore eu fugiat nulla pariatur lorem ispum loting sokui.
+						</div>
+					</div>
+					<div class="about__slider">
+						<div class="sliderRight">
+							<div>
+								<img src="img/slider-about/01.jpg" alt="">
+							</div>
+							<div>
+								<img src="img/slider-about/01.jpg" alt="">
+							</div>
+							<div>
+								<img src="img/slider-about/01.jpg" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a name="elements"></a>
+		<div class="advantages">
+			<div class="wrapper">
+				<div class="advantages__items">
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/01.png" alt="">
+						</div>
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/02.png" alt="">
+						</div>			
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/03.png" alt="">
+						</div>			
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/04.png" alt="">
+						</div>			
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/05.png" alt="">
+						</div>
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/06.png" alt="">
+						</div>			
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/07.png" alt="">
+						</div>
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+					<div class="item">
+						<div class="item__img">
+							<img class="item__icon" src="img/icons/08.png" alt="">
+						</div>
+						<div class="item__head">Improved overall health</div>
+						<div class="item__text">Enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea com.</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<a name="shop"></a>
+		<div class="prices">
+			<div class="wrapper">
+				<div class="prices__tabs">
+					<div class="tabPrice">
+						<a class="tabPrice__btn" href="#">Buy now</a>
+						<ul class="tabPrice__schedule">
+							<li class="tabPrice__li">Entry date: mon – fri</li>
+							<li class="tabPrice__li">Entry time: 8a.m – 8p.m</li>
+							<li class="tabPrice__li">Nutrition advicer: yes</li>
+						</ul>
+						<div class="tabPrice__header">
+							<span class="tabPrice__dollar">$</span>
+							<span class="tabPrice__number">49</span>
+							<span class="tabPrice__month">/ month</span>
+						</div>
+					</div>
+					<div class="tabPrice">
+						<a class="tabPrice__btn" href="#">Buy now</a>
+						<ul class="tabPrice__schedule">
+							<li class="tabPrice__li">Entry date: mon – fri</li>
+							<li class="tabPrice__li">Entry time: 8a.m – 8p.m</li>
+							<li class="tabPrice__li">Nutrition advicer: yes</li>
+						</ul>
+						<div class="tabPrice__header">
+							<span class="tabPrice__dollar">$</span>
+							<span class="tabPrice__number">49</span>
+							<span class="tabPrice__month">/ month</span>
+						</div>
+					</div>
+					<div class="tabPrice">
+						<a class="tabPrice__btn" href="#">Buy now</a>
+						<ul class="tabPrice__schedule">
+							<li class="tabPrice__li">Entry date: mon – fri</li>
+							<li class="tabPrice__li">Entry time: 8a.m – 8p.m</li>
+							<li class="tabPrice__li">Nutrition advicer: yes</li>
+						</ul>
+						<div class="tabPrice__header">
+							<span class="tabPrice__dollar">$</span>
+							<span class="tabPrice__number">49</span>
+							<span class="tabPrice__month">/ month</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="reviews">
+			<div class="wrapper">
+				<div class="reviews__background">
+					<div class="sliderRewiev">
+						<div>
+							<div class="rewievItem">
+								<img class="rewievItem__img" src="img/rewiev/01.png" alt="">
+								<div class="rewievItem__text">
+									<p class="rewievItem__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<div class="rewievItem__smallText">
+										<span class="rewievItem__span">Trainer</span>
+										<span class="rewievItem__name">Laura Shepard</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="rewievItem">
+								<img class="rewievItem__img" src="img/rewiev/01.png" alt="">
+								<div class="rewievItem__text">
+									<p class="rewievItem__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<div class="rewievItem__smallText">
+										<span class="rewievItem__span">Trainer</span>
+										<span class="rewievItem__name">Laura Shepard</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="rewievItem">
+								<img class="rewievItem__img" src="img/rewiev/01.png" alt="">
+								<div class="rewievItem__text">
+									<p class="rewievItem__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<div class="rewievItem__smallText">
+										<span class="rewievItem__span">Trainer</span>
+										<span class="rewievItem__name">Laura Shepard</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="rewievItem">
+								<img class="rewievItem__img" src="img/rewiev/01.png" alt="">
+								<div class="rewievItem__text">
+									<p class="rewievItem__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</p>
+									<div class="rewievItem__smallText">
+										<span class="rewievItem__span">Trainer</span>
+										<span class="rewievItem__name">Laura Shepard</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-nav">
+						<div>
+							<div class="reviewItemSmall">
+								<img class="reviewItemSmall__img" src="img/rewiev/002.png" alt="">
+								<div class="reviewItemSmall__text">
+									<span class="reviewItemSmall__name">Sara Taylor</span>
+									<span class="reviewItemSmall__span">Trainer</span>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="reviewItemSmall">
+								<img class="reviewItemSmall__img" src="img/rewiev/002.png" alt="">
+								<div class="reviewItemSmall__text">
+									<span class="reviewItemSmall__name">Sara Taylor</span>
+									<span class="reviewItemSmall__span">Trainer</span>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="reviewItemSmall">
+								<img class="reviewItemSmall__img" src="img/rewiev/002.png" alt="">
+								<div class="reviewItemSmall__text">
+									<span class="reviewItemSmall__name">Sara Taylor</span>
+									<span class="reviewItemSmall__span">Trainer</span>
+								</div>
+							</div>
+						</div>
+						<div>
+							<div class="reviewItemSmall">
+								<img class="reviewItemSmall__img" src="img/rewiev/002.png" alt="">
+								<div class="reviewItemSmall__text">
+									<span class="reviewItemSmall__name">Sara Taylor</span>
+									<span class="reviewItemSmall__span">Trainer</span>
+								</div>
+							</div>
+						</div>
+					</div>
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footerTop">
+			<div class="wrapper">
+				<div class="wrap-footerTop">
+					<div class="footerTop__aboutF aboutF">
+						<div class="aboutF__h3">About</div>
+						<div class="aboutF__p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad m inim veniam, quis nostrud exercitation toui ullamcomi laboris nisi ut aliquip ex ea commodo consequat.</div>
+					</div>
+					<div class="footerTop__contact contact">
+						<div class="contact__h3">Contact us</div>
+						<div class="contact__list">
+							<div class="contact__item contact__address">5419 Joseph Mountains<br>Apt. 716</div>
+							<div class="contact__item contact__email">joga.info@example.com</div>
+							<div class="contact__item contact__phone">+1 234 567 89<br>+1 234 678 90</div>
+							<div class="contact__item contact__site">www.example.com</div>
+						</div>
+					</div>
+				</div>
+				<div class="social-icons">
+					<a class="sb sb__pinterest" href="#"></a>
+					<a class="sb sb__twitter" href="#"></a>
+					<a class="sb sb__facebook" href="#"></a>
+					<a class="sb sb__gplus" href="#"></a>
+					<a class="sb sb__instagram" href="#"></a>	
+				</div>
+			</div>
+		</div>
+		<div class="copyright">
+			<p class="copyright__p">Copyright  ©  2016-2017 Yoga classes</p>
+		</div>
+	</footer>
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="js/libs.min.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/photoswipe.js"></script>
+</body>
+</html>
